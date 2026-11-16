@@ -1,0 +1,209 @@
+1.
+1. Percent yield
+Step 1: Moles of cyclohexene (limiting reagent) Cyclohexene: C₆H₁₀, M.W. = 82.15 g/mol
+[ n = \frac{2.23\text{ g}}{82.15\text{ g/mol}} = 0.02715\text{ mol} ]
+Step 2: Theoretical yield of adipic acid Stoichiometry: 1 mol cyclohexene → 1 mol adipic acid
+Adipic acid: C₆H₁₀O₄, M.W. = 146.14 g/mol
+[ m_{\text{theoretical}} = 0.02715 \times 146.14 = 3.97\text{ g} ]
+Step 3: Percent yield
+[ % \text{yield} = \frac{2.20}{3.97} \times 100 = 55.4% ]
+Percent yield = 55.4%
+
+2. Atom economy
+Balanced idealized reaction: [ \text{C}6\text{H}{10} + 4\text{H}_2\text{O}_2 \rightarrow \text{C}6\text{H}{10}\text{O}_4 + 4\text{H}_2\text{O} ]
+	•	Cyclohexene: 82.15 g/mol
+	•	4 H₂O₂: 4 × 34.01 = 136.04 g/mol
+	•	Total reactants = 218.19 g/mol
+	•	Adipic acid = 146.14 g/mol
+[ \text{Atom economy} = \frac{146.14}{218.19} \times 100 = 67.0% ]
+Atom economy ≈ 67%
+
+3. Brief evaluation of synthesis and product purity
+Your 55% yield is reasonable for this oxidation, which commonly suffers from phase-transfer limitations, emulsion formation, and product loss during aqueous workup and recrystallization. The use of sodium tungstate and Aliquat 336 suggests an efficient catalytic system, so the moderate yield is more likely due to mechanical losses and incomplete extraction/crystallization rather than reaction failure.
+The melting point of 151–152 °C is very close to the literature value for adipic acid (~152–154 °C) and the narrow range strongly suggests a fairly pure product with minimal organic impurities.
+The IR data need correction in interpretation:
+	•	A peak at ~3400 cm⁻¹ corresponds to O–H stretching, not C=O.
+	•	You should expect a strong C=O stretch near ~1700 cm⁻¹, plus a very broad O–H band from ~2500–3300 cm⁻¹ typical of carboxylic acids.
+The ¹H NMR is consistent with adipic acid:
+	•	Multiplets at ~1.5 and ~2.2 ppm match the two distinct methylene environments in the hexanedioic acid chain.
+	•	A broad signal near ~11.5 ppm is characteristic of the carboxylic acid proton, supporting successful oxidation.
+Overall conclusion
+The data collectively support successful formation of relatively pure adipic acid. The main limitation of the experiment appears to be moderate isolated yield rather than product purity, with spectral and melting point evidence indicating a good-quality product.
+
+2.
+Your TA is very likely reacting to a real inconsistency, and there are actually two separate issues in your data that are worth flagging.
+
+1. The biggest red flag: IR assignment / missing key peak
+You reported:
+	•	“C=O stretch at 3400 cm⁻¹”
+That is not possible for a carbonyl (C=O).
+What 3400 cm⁻¹ actually means
+	•	3400 cm⁻¹ = O–H stretch, usually:
+	•	broad alcohol O–H, or
+	•	carboxylic acid O–H (very broad 2500–3300 cm⁻¹ region)
+What adipic acid should show
+You must see:
+	•	Strong C=O stretch ~1700–1715 cm⁻¹
+	•	Very broad O–H from ~2500–3300 cm⁻¹
+👉 So if your report truly lacks a strong ~1700 cm⁻¹ peak, then:
+	•	either the IR was misread,
+	•	or the spectrum is not adipic acid (or is contaminated / incorrectly assigned).
+This is probably what your TA is questioning.
+
+2. Your NMR is mostly consistent — but incomplete as reported
+You reported:
+	•	1.5 ppm multiplet
+	•	2.2 ppm multiplet
+	•	11.5 ppm broad singlet
+That does fit adipic acid reasonably well:
+	•	~1.5 ppm = central CH₂ groups
+	•	~2.2 ppm = CH₂ α to COOH
+	•	~11–12 ppm = COOH protons
+So NMR is supportive, but not diagnostic alone.
+
+3. Melting point: actually looks good
+	•	151–152 °C is very close to literature adipic acid (~152–154 °C)
+This suggests:
+	•	fairly pure solid
+	•	or at least a single dominant crystalline compound
+So your TA likely is not worried about melting point
+
+4. The real conceptual issue: reaction/product reasoning mismatch
+This is the more subtle but important chemistry problem:
+Your starting material:
+	•	cyclohexene (C₆H₁₀)
+Your product:
+	•	adipic acid (C₆H₁₀O₄)
+That transformation is fine in principle, but in real lab conditions:
+Common problem in this experiment:
+Hydrogen peroxide oxidation can give:
+	•	over-oxidation / cleavage products
+	•	diols or hydroxy acids intermediates
+	•	mixtures of small diacids (glutaric, succinic acids)
+So a TA may be thinking:
+“Did you actually isolate pure adipic acid, or a mixture that just looks clean?”
+
+5. What is actually wrong in your write-up?
+Most likely TA concerns:
+❌ IR misassignment
+Calling 3400 cm⁻¹ a “C=O stretch” is incorrect and is the clearest error.
+❌ Possibly missing the true carbonyl peak (~1700 cm⁻¹)
+If not reported, it’s a serious omission.
+⚠️ Product identity should be justified more carefully
+Even though:
+	•	melting point is good
+	•	NMR is consistent
+IR must support it properly.
+
+6. Bottom line
+Your results are not inherently “wrong,” but your interpretation is flawed in one key place:
+	•	❌ 3400 cm⁻¹ is not C=O
+	•	✔ 151–152 °C strongly supports adipic acid
+	•	✔ NMR is consistent
+	•	❓ IR likely incomplete or misread (this is the issue your TA is reacting to)
+
+If you want, I can help you rewrite your IR section so it matches what a high-mark lab report would say and avoids TA pushback.
+
+
+3. 
+I’ll go strictly line-by-line and separate (A) chemically impossible, (B) inconsistent / suspicious, and (C) consistent / fine.
+
+1. Starting material
+“2.75 mL cyclohexene (2.23 g)”
+✔ Consistent
+Cyclohexene density ≈ 0.779 g/mL.
+[ 2.75 \times 0.779 = 2.14\text{ g} ]
+You reported 2.23 g → slightly high but well within typical lab measurement / rounding / temperature variation error.
+👉 Nothing chemically wrong here.
+
+2. Oxidant amount
+“12.0 mL of 30% hydrogen peroxide”
+✔ Chemically fine
+No issue stoichiometrically.
+⚠️ Minor experimental note
+30% H₂O₂ is often in large excess for this oxidation, so:
+	•	H₂O₂ is definitely not limiting reagent
+	•	consistent with standard adipic acid synthesis
+
+3. Product mass
+“isolated 2.20 g white crystalline product”
+✔ Plausible
+Given theoretical max ~3.97 g (we calculated earlier), this is reasonable.
+No chemical impossibility.
+
+4. Melting point
+“151–152 °C”
+✔ Strong consistency signal
+Literature adipic acid:
+	•	~151–154 °C depending on source/purity
+Narrow range (1 °C) suggests:
+	•	relatively pure crystalline solid
+No inconsistency here.
+
+5. IR data
+“C=O carbonyl stretch at 3400 cm⁻¹”
+❌ CHEMICALLY IMPOSSIBLE
+This is the major error in your dataset.
+	•	Carbonyl (C=O) stretches occur at:
+	•	~1650–1750 cm⁻¹ (depending on functional group)
+	•	3400 cm⁻¹ corresponds to:
+	•	O–H stretch (alcohol or acid)
+What this means:
+You either:
+	•	misread the peak assignment, OR
+	•	wrote down the wrong number, OR
+	•	misinterpreted the spectrum entirely
+Expected correct IR for adipic acid:
+	•	~2500–3300 cm⁻¹ (very broad O–H)
+	•	~1700–1715 cm⁻¹ (strong C=O)
+👉 If 1700 cm⁻¹ is missing, that would be a serious structural contradiction
+
+6. ¹H NMR data
+“multiplets at 1.5 and 2.2 ppm, broad signal near 11.5 ppm”
+✔ Mostly consistent
+Breakdown:
+(a) 1.5 ppm multiplet
+	•	internal –CH₂–CH₂– groups ✔ correct
+(b) 2.2 ppm multiplet
+	•	α to carboxylic acid ✔ correct
+(c) 11.5 ppm broad singlet
+	•	carboxylic acid proton ✔ correct (typically 11–12 ppm)
+⚠️ Minor note (not an error)
+You didn’t report integration values. A TA might expect:
+	•	8 H total for CH₂ signals
+	•	2 H for COOH (often broad, exchangeable)
+But chemically: ✔ fine
+
+7. Stoichiometry / implicit chemistry check
+Reaction assumed: cyclohexene → adipic acid (1:1 oxidation)
+✔ This is chemically valid for:
+	•	strong oxidative cleavage with H₂O₂ / tungstate system
+No inconsistency here.
+
+8. Atom economy / yield (your implied chemistry consistency)
+Not directly “data,” but checking consistency:
+Your product mass + melting point + NMR suggest:
+	•	single major product
+So: ✔ yield is chemically plausible
+No contradiction.
+
+FINAL SUMMARY (what is actually wrong)
+❌ One definite chemical impossibility
+	•	“C=O stretch at 3400 cm⁻¹” → impossible by definition of IR spectroscopy
+
+⚠️ One major likely TA concern (structural validation issue)
+	•	You did not report (or misreported) the ~1700 cm⁻¹ carbonyl peak → this is required evidence for adipic acid
+
+✔ Everything else is chemically consistent
+	•	Starting material mass/density: fine
+	•	H₂O₂ amount: fine
+	•	Product mass: fine
+	•	Melting point: strong match
+	•	NMR: consistent with adipic acid
+
+What your TA is probably thinking
+Not “your product is wrong,” but:
+“Your IR interpretation is incorrect and you didn’t properly demonstrate the key functional group.”
+
+If you want, I can rewrite your IR + spectroscopy section into a “full-marks style” interpretation that fixes exactly what your TA is flagging.
+

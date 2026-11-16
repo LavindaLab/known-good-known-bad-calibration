@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this protocol or record, please cite the associated preprint."
+title: "Known Good, Known Bad: ground-truth calibration protocol and pilot record"
+type: dataset
+authors:
+  - family-names: Lavinda
+    given-names: Olga
+    orcid: "https://orcid.org/0000-0003-3577-5984"
+version: "1.0.0"
+repository-code: "https://github.com/LavindaLab/known-good-known-bad-calibration"
+preferred-citation:
+  type: article
+  title: "Known Good, Known Bad: A Ground-Truth Calibration Protocol for AI Judgment in Science"
+  authors:
+    - family-names: Lavinda
+      given-names: Olga
+      orcid: "https://orcid.org/0000-0003-3577-5984"
+  year: 2026
+  url: "https://arxiv.org/abs/2611.11673"

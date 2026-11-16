@@ -1,0 +1,220 @@
+
+1.
+1) Percent yield
+Balanced reaction (standard tungstate/H₂O₂ oxidation): [ \text{cyclohexene} + 4,\text{H}_2\text{O}_2 \rightarrow \text{adipic acid} + 4,\text{H}_2\text{O} ]
+Molar masses:
+	•	Cyclohexene (C₆H₁₀): 82.15 g/mol
+	•	H₂O₂: 34.01 g/mol
+	•	Adipic acid (C₆H₁₀O₄): 146.14 g/mol
+Moles of reagents
+Cyclohexene: You reported 2.75 L (assuming liquid cyclohexene, density ≈ 0.811 g/mL):
+	•	Volume = 2750 mL
+	•	Mass ≈ 2750 × 0.811 = 2230 g
+	•	Moles ≈ 2230 / 82.15 = 27.1 mol
+30% H₂O₂ (12.0 mL):
+	•	Mass of solution ≈ 12.0 × 1.11 = 13.32 g
+	•	Mass H₂O₂ ≈ 0.30 × 13.32 = 3.996 g
+	•	Moles H₂O₂ ≈ 3.996 / 34.01 = 0.1176 mol
+Limiting reagent
+Stoichiometry requires 4 mol H₂O₂ → 1 mol adipic acid, so:
+	•	Moles adipic acid theoretical = 0.1176 / 4 = 0.0294 mol
+Theoretical yield
+	•	Mass = 0.0294 × 146.14 = 4.30 g
+Percent yield
+	•	Actual = 2.20 g
+	•	Percent yield = (2.20 / 4.30) × 100 = 51.2%
+
+2) Atom economy
+[ \text{Atom economy} = \frac{\text{MW product}}{\text{MW all reactants}} \times 100 ]
+Reactants (per stoichiometric equation):
+	•	Cyclohexene = 82.15 g/mol
+	•	4 H₂O₂ = 4 × 34.01 = 136.04 g/mol
+	•	Total = 218.19 g/mol
+Product:
+	•	Adipic acid = 146.14 g/mol
+[ \text{Atom economy} = \frac{146.14}{218.19} \times 100 = 66.9% \approx \mathbf{67.0%} ]
+
+3) Evaluation of synthesis and purity
+Your percent yield (~51%) is moderate for this oxidation and suggests incomplete conversion and/or product loss during workup (common in biphasic tungstate/phase-transfer systems like Aliquat 336-mediated oxidations).
+The melting point (151–152 °C) is very close to the literature value for adipic acid (~152–153 °C), indicating high purity and good crystallinity with minimal organic impurities.
+IR interpretation:
+	•	Broad 2500–3300 cm⁻¹: O–H stretch of carboxylic acid dimer
+	•	Strong ~1710 cm⁻¹: C=O stretch of carboxylic acid → Consistent with a clean diacid product.
+¹H NMR (d₆-acetone):
+	•	Multiplets at ~1.5 ppm: internal –CH₂– groups
+	•	Multiplets at ~2.2 ppm: CH₂ groups α to carboxyls
+	•	Broad signal ~11.5 ppm: acidic O–H protons → Pattern matches adipic acid and shows no obvious residual alkene (no signals ~5–6 ppm).
+
+Overall conclusion
+	•	Yield: moderate (likely limited by oxidation efficiency, phase transfer limitations, or workup losses)
+	•	Purity: high (supported by sharp melting point and clean IR/NMR profile)
+	•	Atom economy (~67%): reasonably good for an oxidative cleavage, though significant mass ends up as water byproduct (as expected for peroxide oxidations)
+If you want, I can also help you diagnose likely experimental losses step-by-step (reflux time, emulsions, extraction efficiency, etc.).
+
+
+2. 
+
+Your TA is very likely reacting to a units/stoichiometry issue, not the spectroscopy.
+There are two important possibilities here, and one of them is a classic lab-report red flag.
+
+1) The big problem: 2.75 L of cyclohexene is almost certainly wrong
+In an organic lab, cyclohexene is typically used in the mL range, not liters. So 2.75 L = 2750 mL would correspond to ~2.2 kg of cyclohexene, which is unrealistic for this reaction scale.
+This strongly suggests it should be 2.75 mL, not L.
+
+2) Does this mistake actually change your yield?
+Interestingly: it barely affects your final percent yield, because:
+	•	H₂O₂ is the limiting reagent in both interpretations
+	•	So the theoretical yield is controlled by H₂O₂, not cyclohexene
+Using correct limiting reagent (H₂O₂):
+	•	moles H₂O₂ = 0.1176 mol
+	•	adipic acid max = 0.1176 / 4 = 0.0294 mol
+	•	theoretical mass = 4.30 g
+	•	actual = 2.20 g
+✔ Percent yield = 51.2%
+So your yield calculation is actually fine.
+
+3) Atom economy — your result is also correct
+For: [ \text{cyclohexene} + 4,\text{H}_2\text{O}_2 \rightarrow \text{adipic acid} + 4,\text{H}_2\text{O} ]
+[ \text{Atom economy} = \frac{146.14}{82.15 + (4 \times 34.01)} \times 100 = 66.9% ]
+✔ Your ~67% atom economy is correct
+
+4) So why did your TA say something is wrong?
+Most likely one of these:
+(A) Unit error (most likely)
+	•	They noticed 2.75 L is chemically unrealistic
+	•	This alone is enough for them to flag the report
+(B) They expected cyclohexene to be limiting
+Some instructors intentionally expect:
+	•	cyclohexene as limiting reagent (even if H₂O₂ is slightly limiting depending on assumed density/purity)
+	•	If they used simplified assumptions, they might get a different theoretical yield (~3.9–4.0 g instead of 4.3 g)
+(C) They think your reagent interpretation is inconsistent
+Occasionally graders want:
+	•	no density assumptions unless provided
+	•	or they assume 30% H₂O₂ is w/w and density = 1.00 g/mL (which changes results slightly)
+
+5) Spectroscopy: nothing is “wrong” here
+Your data is actually very clean:
+	•	mp 151–152 °C → essentially literature adipic acid (~152–153 °C)
+	•	IR:
+	•	2500–3300 cm⁻¹ (acid O–H) ✔
+	•	1710 cm⁻¹ (C=O) ✔
+	•	¹H NMR:
+	•	11.5 ppm broad acid proton ✔
+	•	only CH₂ signals ✔
+	•	no alkene peaks ✔
+👉 This strongly supports good purity
+
+Bottom line
+	•	Your chemistry interpretation is sound
+	•	Your percent yield (~51%) is reasonable
+	•	Your atom economy (~67%) is correct
+	•	The only real issue is almost certainly a unit typo (L vs mL)
+
+If you want, I can help you rewrite your calculation section in a “TA-proof” format (clean assumptions, no ambiguity, full stoichiometric clarity).
+
+3.
+I’ll go line by line and flag what is chemically impossible, inconsistent, or questionable vs what is fine.
+
+1) “2.75 L of cyclohexene”
+❌ Chemically / practically inconsistent
+This is the major red flag.
+	•	Cyclohexene is a liquid (density ~0.81 g/mL)
+	•	2.75 L = 2750 mL → ~2230 g → ~27 mol
+Why this is inconsistent with the rest of your experiment:
+	•	You only used 12.0 mL of 30% H₂O₂ = 0.118 mol H₂O₂
+	•	Stoichiometry requires 4:1 H₂O₂:cyclohexene oxidation step
+So H₂O₂ could only oxidize:
+	•	0.118 / 4 = 0.029 mol cyclohexene max (~2.4 g)
+👉 That means:
+	•	If 2.75 L were real, >99.9% of cyclohexene would be unreacted
+	•	But you isolated only 2.20 g product, which corresponds to only:
+	•	2.20 / 146.14 = 0.015 mol adipic acid
+✔ Conclusion: The only chemically reasonable interpretation is 2.75 mL, not L
+
+2) “12.0 mL of 30% hydrogen peroxide”
+⚠️ Mostly fine, but needs assumption clarity
+	•	You assumed density ~1.11 g/mL (reasonable for 30% w/w H₂O₂)
+	•	That gives:
+	•	~0.118 mol H₂O₂
+Minor issue:
+	•	Many instructors expect you to explicitly state:
+	•	“30% w/w, density assumed or provided”
+	•	If density wasn’t given, TA may flag the precision
+✔ Chemically consistent
+
+3) “1 hour reflux with Na₂WO₄ + Aliquat 336”
+✔ Chemically reasonable
+	•	Sodium tungstate = standard catalytic oxidation system
+	•	Aliquat 336 is commonly used for biphasic H₂O₂ oxidations
+	•	1 hour reflux is plausible
+No inconsistency
+
+4) “2.20 g white crystalline product”
+✔ Chemically consistent
+	•	Corresponds to:
+	•	0.0150 mol adipic acid
+Internal consistency check:
+	•	H₂O₂ available → 0.1176 mol
+	•	Required for 0.015 mol product → 0.060 mol H₂O₂ used
+👉 So:
+	•	H₂O₂ is in excess (~50% unused)
+	•	This is completely plausible in student lab conditions
+
+5) Melting point: 151–152 °C
+✔ Strong consistency (good sign)
+	•	Literature adipic acid mp ≈ 152–153 °C
+Implication:
+	•	Very pure product
+	•	No major contamination (especially no cyclohexanol/oxidation intermediates)
+
+6) IR: 2500–3300 cm⁻¹ + 1710 cm⁻¹
+✔ Chemically correct
+	•	Broad 2500–3300 → carboxylic acid O–H dimer stretch
+	•	1710 cm⁻¹ → C=O stretch of COOH
+What is missing (not an error):
+	•	No mention of:
+	•	C–O stretch (~1200–1300 cm⁻¹) But this is usually optional in lab reports
+✔ No inconsistency
+
+7) ¹H NMR (d₆-acetone)
+✔ Mostly correct, with one subtle nuance
+Expected adipic acid structure: HOOC–(CH₂)₄–COOH
+Expected signals:
+	•	~2.2–2.4 ppm: α-CH₂ (next to COOH)
+	•	~1.4–1.7 ppm: internal CH₂
+	•	~10–12 ppm: COOH proton (broad)
+Your data:
+	•	multiplet at 1.5 ppm ✔
+	•	multiplet at 2.2 ppm ✔
+	•	broad ~11.5 ppm ✔
+Minor nuance:
+	•	In acetone-d₆, COOH proton can:
+	•	broaden heavily
+	•	partially disappear depending on exchange So seeing it is fine but not always guaranteed
+✔ No contradiction
+
+8) Overall stoichiometry consistency check
+From your actual product:
+	•	2.20 g = 0.0150 mol adipic acid
+Required:
+	•	H₂O₂ = 0.060 mol
+	•	Cyclohexene = 0.015 mol
+This implies:
+	•	cyclohexene used in excess is not limiting
+	•	H₂O₂ is limiting reagent
+✔ Chemically consistent with your yield calculation
+
+FINAL DIAGNOSIS (what your TA is reacting to)
+❌ Only true chemical problem:
+“2.75 L cyclohexene”
+This is physically unrealistic and stoichiometrically inconsistent in scale context
+
+Everything else:
+✔ Spectroscopy = consistent with pure adipic acid ✔ Yield = chemically consistent ✔ Atom economy = correct ✔ Product identity = strongly confirmed
+
+Bottom line
+Your dataset is chemically coherent except for one critical unit error:
+You likely wrote L instead of mL, and that alone is enough for a TA to flag the entire report.
+
+If you want, I can show you exactly how your TA is mentally “grading this” and what correction would make it 100% submission-safe.
+

@@ -1,0 +1,189 @@
+Prompt 1:
+
+1. Percent yield
+Reaction (overall):
+Cyclohexene → Adipic acid
+The stoichiometry is 1 mol cyclohexene : 1 mol adipic acid.
+Step 1. Calculate moles of cyclohexene
+Mass of cyclohexene = 2.23 g
+Molar mass of cyclohexene (C₆H₁₀):
+= 82.15 g/mol
+[ \text{moles}=\frac{2.23\text{ g}}{82.15\text{ g/mol}}=0.0271\text{ mol} ]
+Step 2. Calculate theoretical yield of adipic acid
+Molar mass of adipic acid (C₆H₁₀O₄):
+= 146.14 g/mol
+[ 0.0271\text{ mol}\times146.14\text{ g/mol}=3.96\text{ g} ]
+Theoretical yield = 3.96 g
+Step 3. Calculate percent yield
+Actual yield = 4.80 g
+[ % \text{Yield}=\frac{4.80}{3.96}\times100=121.2% ]
+Percent yield = 121%
+A yield greater than 100% is not chemically possible, indicating that the isolated product likely contained impurities such as retained water, residual solvent, catalyst, or inorganic salts.
+
+2. Atom economy
+Using the simplified overall reaction:
+[ \mathrm{C_6H_{10} + 4H_2O_2 \rightarrow C_6H_{10}O_4 + 4H_2O} ]
+Atom economy is:
+[ \text{Atom Economy}= \frac{\text{Molar mass of desired product}} {\text{Total molar mass of reactants}} \times100 ]
+Reactants:
+	•	Cyclohexene = 82.15 g/mol
+	•	4 H₂O₂ = 4 × 34.02 = 136.08 g/mol
+Total reactant mass
+[ 82.15+136.08=218.23\text{ g/mol} ]
+[ \text{Atom Economy}= \frac{146.14}{218.23}\times100 =66.96% ]
+Atom economy = 67.0%
+
+3. Evaluation of synthesis and product purity
+The synthesis successfully produced a white crystalline solid with a melting point of 151–152 °C, which is close to the literature melting point of adipic acid (approximately 152 °C). The narrow melting range suggests that the product is relatively pure.
+The IR spectrum is consistent with adipic acid, showing a broad O–H stretch between 2500–3300 cm⁻¹ characteristic of carboxylic acids and a strong C=O stretch at 1710 cm⁻¹. The ¹H NMR spectrum also agrees with the expected structure, displaying methylene proton signals at approximately 1.5 and 2.2 ppm, together with a broad carboxylic acid proton resonance near 11.5 ppm.
+Although the spectroscopic data and melting point support successful synthesis of adipic acid, the calculated 121% yield indicates that the isolated sample was not completely dry or contained residual impurities such as water, solvent, catalyst, or inorganic salts. Additional drying under vacuum or further recrystallization would likely reduce the measured mass and provide a more accurate yield while maintaining the high purity suggested by the melting point and spectroscopic analysis.
+
+Summary
+Quantity
+Value
+Cyclohexene used
+2.23 g (0.0271 mol)
+Theoretical adipic acid
+3.96 g
+Actual adipic acid
+4.80 g
+Percent yield
+121%
+Atom economy
+67.0%
+
+Prompt 2:
+
+Your TA is right to question it. The key issue is the 121% yield, which is impossible for a pure product. Let's check the calculations carefully.
+Step 1. Moles of cyclohexene
+You reported:
+	•	Volume = 2.75 mL
+	•	Mass = 2.23 g
+Cyclohexene has a density of about 0.811 g/mL.
+If you actually used 2.75 mL, then the mass should be:
+[ 2.75\ \text{mL} \times 0.811\ \frac{\text{g}}{\text{mL}} = 2.23\ \text{g} ]
+So your mass is consistent.
+Moles:
+[ \frac{2.23\ \text{g}}{82.15\ \text{g/mol}} = 0.0271\ \text{mol} ]
+This part is correct.
+Step 2. Theoretical yield
+Adipic acid molar mass:
+[ 146.14\ \text{g/mol} ]
+Theoretical mass:
+[ 0.0271 \times 146.14 = 3.96\ \text{g} ]
+Also correct.
+Step 3. Percent yield
+[ \frac{4.80}{3.96}\times100 = 121% ]
+The math is correct.
+
+So what is actually wrong?
+The problem is probably not the calculation—it's the experimental data.
+There are a few possibilities:
+1. The product wasn't completely dry (most likely)
+Adipic acid crystals easily retain:
+	•	water from washing
+	•	mother liquor
+	•	residual acetone or ethanol (depending on the procedure)
+Even a few tenths of a gram of retained liquid can push the apparent yield above 100%.
+2. Inorganic contamination
+Your reaction uses:
+	•	sodium tungstate
+	•	Aliquat 336
+	•	sodium carbonate (in many procedures)
+Incomplete washing can leave inorganic salts or catalyst mixed with the crystals.
+3. You weighed filter paper or container incorrectly
+This is another common cause of yields over 100%.
+
+Your melting point is interesting
+You obtained:
+151–152 °C
+The literature melting point of adipic acid is about 151–153 °C.
+A narrow melting range usually indicates fairly pure adipic acid.
+That seems inconsistent with a sample that is 21% impurity.
+However, there's an important caveat:
+Water doesn't always depress the melting point very much if it's simply trapped between crystals rather than incorporated into the crystal lattice. So a wet sample can still melt near the correct temperature.
+
+The spectra
+Everything you reported matches adipic acid:
+	•	IR broad O–H (2500–3300 cm⁻¹) ✔
+	•	IR C=O at 1710 cm⁻¹ ✔
+	•	^1H NMR methylene signals ✔
+	•	acid proton around 11.5 ppm ✔
+So the identity of the product is convincing.
+
+One thing your TA may also expect
+Many organic lab manuals ask students to calculate percent yield based on the limiting reagent. Here, hydrogen peroxide is present in excess.
+Let's check:
+30% H₂O₂ means approximately:
+12.0 mL × 1.11 g/mL ≈ 13.3 g solution
+30% by mass gives:
+≈4.0 g H₂O₂
+[ \frac{4.0}{34.01}=0.118\ \text{mol H}_2\text{O}_2 ]
+Since 4 mol H₂O₂ are needed per mol cyclohexene:
+[ \frac{0.118}{4}=0.0295\ \text{mol} ]
+Cyclohexene provides only 0.0271 mol, so cyclohexene is indeed the limiting reagent. Your yield calculation based on cyclohexene is therefore appropriate.
+Bottom line
+The calculations are correct. The issue is that the experimental yield is physically impossible, so your TA was almost certainly pointing out that the mass of isolated product is too high, not that the arithmetic is wrong.
+If this is for a lab report, you should report the calculated 121% yield but explicitly discuss that it indicates the product was not completely dry or contained residual impurities, even though the melting point and spectroscopic data support that the major component is adipic acid. This kind of critical evaluation is usually what instructors are looking for.
+
+Prompt 3:
+
+Sure. Looking at your data as if I were grading an undergraduate organic lab report:
+Your data
+Assessment
+Comments
+Cyclohexene: 2.75 mL (2.23 g)
+✅ Consistent
+Cyclohexene has a density of about 0.811 g/mL, so 2.75 mL × 0.811 = 2.23 g. No problem here.
+12.0 mL of 30% hydrogen peroxide
+✅ Plausible
+This is a typical excess of oxidant for the green adipic acid synthesis. Cyclohexene is still the limiting reagent.
+Sodium tungstate catalyst + Aliquat 336
+✅ Correct
+These are the standard catalyst and phase-transfer catalyst used in this experiment.
+1 hour reflux
+✅ Reasonable
+Many undergraduate procedures reflux for about 1 hour.
+Isolated 4.80 g of white crystalline product
+❌ Major red flag
+The theoretical maximum from 2.23 g cyclohexene is only about 3.96 g adipic acid. A 4.80 g isolated mass corresponds to 121% yield, which is impossible for pure adipic acid.
+Melting point 151–152 °C
+✅ Excellent
+Literature is about 151–153 °C. The narrow range suggests good crystallinity and relatively pure adipic acid.
+IR: broad 2500–3300 cm⁻¹
+✅ Expected
+Characteristic carboxylic acid O–H stretch.
+IR: strong 1710 cm⁻¹
+✅ Expected
+Carboxylic acid carbonyl stretch.
+¹H NMR: multiplets at 1.5 and 2.2 ppm
+✅ Expected
+Adipic acid has two sets of methylene protons (4 H each), so two multiplets are exactly what you expect.
+Broad signal near 11.5 ppm
+✅ Expected
+Carboxylic acid proton.
+The biggest inconsistency
+Your analytical data (melting point, IR, NMR) all point toward adipic acid as the product.
+Your isolated mass points toward a sample that is about 21% heavier than pure adipic acid can possibly be.
+Those two observations don't fit together very well.
+Can both still be true?
+Yes, if the extra mass isn't another organic compound.
+For example:
+	•	residual water trapped between crystals
+	•	residual mother liquor
+	•	traces of sodium salts
+	•	residual catalyst
+	•	product not fully dried before weighing
+These can increase the mass without dramatically affecting the melting point or the NMR if present in modest amounts or if they are not dissolved into the NMR sample.
+One thing that caught my attention
+You wrote:
+¹H NMR in d₆-acetone shows multiplets at 1.5 and 2.2 ppm
+A complete characterization of adipic acid usually reports integrations, for example:
+	•	~1.6 ppm (4 H)
+	•	~2.3 ppm (4 H)
+	•	~11–12 ppm (2 H)
+If your spectrum instead integrated to something like 5 H and 5 H, or showed unexpected extra peaks (for example around 3–4 ppm or near 2.0 ppm), that would support contamination. Since you only listed chemical shifts, I can't evaluate the spectrum fully.
+If I were the TA, I'd write something like:
+The spectroscopic data and melting point are consistent with adipic acid. However, the reported isolated mass (4.80 g) exceeds the theoretical maximum obtainable from the starting cyclohexene (3.96 g), giving a physically impossible yield of 121%. This indicates an error in the recorded mass or that the product was weighed before it was completely dry and/or still contained inorganic impurities or residual solvent.
+One question: Are you sure the isolated mass was 4.80 g? In this experiment, students often obtain around 2.8–3.6 g of adipic acid. A transcription error (for example, 3.80 g instead of 4.80 g) would immediately make the results internally consistent.
+
